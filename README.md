@@ -155,34 +155,30 @@ Throughput được ghi nhận khoảng 1,1 yêu cầu/giây. Thông lượng l�
 Các ảnh minh họa cấu hình và kết quả thực tế được lưu trong thư mục `screenshots` ở thư mục gốc repository.
 
 ### 7.1. Cấu hình Thread Group
-
 Hình ảnh thể hiện số người dùng ảo, Ramp-up Period và số vòng lặp được thiết lập cho kịch bản kiểm thử.
 
-<img src="screenshots/01-thread-group.png" width="500" alt="Cấu hình Thread Group">
+![Cấu hình Thread Group](screenshots/01-thread-group.png)
 
 ### 7.2. Cấu hình HTTP Request
-
 Hình ảnh thể hiện giao thức HTTPS, máy chủ `httpbin.org`, phương thức GET và đường dẫn `/get`.
 
-<img src="screenshots/02-http-request.png" width="500" alt="Cấu hình HTTP Request">
+![Cấu hình HTTP Request](screenshots/02-http-request.png)
 
 ### 7.3. Kết quả từng yêu cầu
+View Results Tree minh họa kết quả phản hồi của các yêu cầu, bao gồm thời gian phản hồi, mã trạng thái HTTP và thông báo phản hồi. Cần phân biệt mẫu thành công và mẫu lỗi nếu có.
 
-View Results Tree minh họa thời gian phản hồi, mã trạng thái HTTP và thông tin phản hồi của từng yêu cầu.
-
-<img src="screenshots/03-test-results.png" width="500" alt="Kết quả View Results Tree">
+![Kết quả View Results Tree](screenshots/03-test-results.png)
 
 ### 7.4. Summary Report
+Summary Report thể hiện tổng số mẫu, thời gian phản hồi trung bình, Min, Max, độ lệch chuẩn, tỷ lệ lỗi và thông lượng. Các số liệu phân tích trong mục 6 được ghi lại từ lần chạy đã chọn.
 
-Summary Report thể hiện tổng số mẫu, thời gian phản hồi trung bình, Min, Max, độ lệch chuẩn, tỷ lệ lỗi và Throughput.
-
-<img src="screenshots/04-summary-report.png" width="500" alt="Kết quả Summary Report">
+![Kết quả Summary Report](screenshots/04-summary-report.png)
 
 ### 7.5. Tổng quan Test Plan
-
 Hình ảnh thể hiện cấu trúc Test Plan gồm Thread Group, HTTP Request và các Listener được sử dụng trong bài thực hành.
 
-<img src="screenshots/05-test-plan-overview.png" width="500" alt="Tổng quan Test Plan">
+![Tổng quan Test Plan](screenshots/05-test-plan-overview.png) 
+
 ## 8. Đánh giá và hạn chế
 
 ### 8.1. Đánh giá
