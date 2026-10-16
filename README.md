@@ -152,7 +152,7 @@ Throughput được ghi nhận khoảng 1,1 yêu cầu/giây. Thông lượng l�
 
 ## 7. Hình ảnh minh chứng
 
-Các ảnh minh họa cấu hình và kết quả thực tế được lưu trong thư mục `screenshots` ở thư mục gốc repository. Tên file trong đường dẫn Markdown phải trùng chính xác với tên file trên GitHub.
+Các ảnh minh họa cấu hình và kết quả thực tế được lưu trong thư mục `screenshots` ở thư mục gốc repository. 
 
 ### 7.1. Cấu hình Thread Group
 
